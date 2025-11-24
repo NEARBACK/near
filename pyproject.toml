@@ -20,6 +20,7 @@ dependencies = [
     "starlette-context>=0.4.0",
     "starlette-exporter>=0.23.0",
     "sqlalchemy>=2.0.41",
+    "greenlet>=3.2.2",
 ]
 
 [dependency-groups]
