@@ -5,9 +5,9 @@ from typing import Any, TypeVar
 from sqlalchemy import ColumnExpressionArgument, and_, insert, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from db.models.dummy import Dummy
+from db.base import Base
 
-T = TypeVar("T", bound=Dummy)
+T = TypeVar("T", bound=Base)
 
 
 class BaseRepository:

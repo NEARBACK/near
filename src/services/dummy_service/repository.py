@@ -3,7 +3,7 @@ from collections.abc import Sequence
 from sqlalchemy import select
 
 from db.models.dummy import Dummy
-from db.repository.dummy import BaseRepository
+from db.repository.base import BaseRepository
 
 
 class DummyRepository(BaseRepository):
